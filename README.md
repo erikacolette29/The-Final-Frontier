@@ -4,17 +4,17 @@
 ![Wireframe](css/Wireframe-solarsystem.png)
 
 
-// Solar System Project Unit 1 Code 
+#Solar System Project Unit 1 Code 
 
-// Mobile layout //
-// Add HTML template and link CSS and JS
-// add section dividers for planets, text, and buttons
-// add H1 title, planets containers & and ship container // order them 
-// add container that will be displaying the button api info
-// Add buttons for planets
-// Add buttons for sound and dark mode 
-// Add containers for bottom and top border color
-// add google fonts and bootstrap link 
+##Mobile layout 
+* Add _HTML_ template and link CSS and JS
+* Add section dividers for *planets*, *text*, and *buttons*
+* Add _H1_ title, _planets containers_ & and _ship container_ & order them 
+* Add container that will be displaying the button _api_ info
+* Add buttons for planets
+* Add buttons for sound and dark mode 
+* Add containers for bottom and top border color
+* Add google fonts and bootstrap link 
 
 // CSS design layout and place planets on the page
 // add flex to container divs
