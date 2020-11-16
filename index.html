@@ -3,35 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
     <link rel="icon" href="images/solarsystem.ico" />
+    <!-- JS -->
     <script defer src="js/app.js"></script>
     <title>Solar System</title>
   </head>
 
-  <body>
+  <body id="body">
     <!-- planets -->
-    <div id="sun"       class="planet"></div>
-    <div id="mercury"   class="planet"></div>
-    <div id="venus"     class="planet"></div>
-    <div id="earth"     class="planet"></div>
-    <div id="mars"      class="planet"></div>
-    <div id="jupiter"   class="planet"></div>
-    <div id="saturn"    class="planet"></div>
-    <div id="uranus"    class="planet"></div>
-    <div id="eptune"    class="planet"></div>
+    <section class="planets-container">
+      <div id="sun" class="planet"></div>
+      <div id="mercury" class="planet"></div>
+      <div id="venus" class="planet"></div>
+      <div id="earth" class="planet"></div>
+      <div id="mars" class="planet"></div>
+      <div id="jupiter" class="planet"></div>
+      <div id="saturn" class="planet"></div>
+      <div id="uranus" class="planet"></div>
+      <div id="eptune" class="planet"></div>
+    </section>
 
     <!-- enterprise -->
     <div id="enterprise" class="ship"></div>
-
-
 
     <!-- container info -->
     <div id="containerDiv"></div>
 
     <!-- buttons -->
     <button id="sound-btn" type="button"></button>
-    <button id="dark-btn"  type="button"></button>
-  
+    <button id="dark-btn" type="button"></button>
   </body>
 </html>
