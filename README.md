@@ -1,6 +1,6 @@
 # Unit-1-Project
 
-
+![wireframDrawing](css/wireframe.jpg)
 ![Wireframe](css/Wireframe-solarsystem.png)
 
 //StarTrek Project
