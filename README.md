@@ -12,6 +12,7 @@
 * Add **HTML** template and link CSS and JS
 * Add section dividers for **planets**, **text**, and **buttons**
 * Add **H1** title, **planets containers** & and **ship container** & order them 
+* Assign class or Id to planets and buttons
 * Add container that will be displaying the **api** info
 * Add buttons for planets
 * Add buttons for sound and dark mode 
@@ -25,25 +26,26 @@
 * Test layout responsive design 
 * Add in **@media** to adjust the layout for desktop version 
 * Test mobile and desktop versions
+* Set width, hight, and colors, to api container div
 
 **JS**
-add in layout dividers for constants, variables, cached elements, event listeners, and functions 
-// add variable array to store the planets and another variable array to store the ship info 
-// link the elements on HTML to js variables in cached element section 
-// link the buttons, body, and container of information 
-// add click event listeners to sound button, dark mode, and planets
-// fetch api, and make objects that get pushed to array
-// make render function that clears out the data every time you click
-// In render add index to every info data and append it to container with key values selected from API
-// In appending div function, make new div and add in bootstrap blockquote data for a card, append it to container for info, set keys added in
-// add function for dark mode, to change to a dark scheme
-// add constant for dark mode variable object
-// add function fo dark mode to switch between light and dak & set attribute class to body
-// text api call 
-// add in audio function and add click event listener to the audio button 
-// text audio 
-// text dark mode button 
-// test responsive layout and make sure everything functions 
+* Add in layout dividers for **constants, variables, cached elements, event listeners, and functions** 
+* Add variable _array_ to store the planets and another variable _array_ to store the ship  info 
+* **DOM** link the elements on HTML to js variables in cached element section 
+* DOM link the buttons, body, and container of information 
+* Add **click** event listeners to sound button, dark mode, and planets
+* **Fetch** api, and make _objects_ that get pushed to array
+* Make **render** function that clears out the data every time you click
+* In render add _index_ to all info data and append it to container with key values selected from API
+* In **appending div** function, make new div and add in bootstrap _blockquote_ data for a card, append it to container for info, set keys added in
+* Add function for **dark mode**, to change to a dark scheme
+* Add constant for dark mode variable object
+* Add function fo dark mode to switch between light and dak & set attribute class to body
+* Test api call 
+* Add in **audio** function and add _click_ event listener to the audio button 
+* Test audio 
+* Test dark mode button 
+* Test responsive layout and make sure everything functions 
 
 
 
