@@ -5,7 +5,7 @@
 
 
 # Solar System Project Unit 1 Code 
-This project is making an interactive learning experience about the solar system. Click on a planet and learn some interesting information about it. Click on the Star Trek tng ship and find out some fun facts! 
+This project is making an interactive learning experience about the solar system. Click on a planet and learn some interesting information about it. Click on the Star Trek TNG ship and find out some fun facts! 
 
 ## Mobile layout 
 
@@ -13,7 +13,7 @@ This project is making an interactive learning experience about the solar system
 * Add **HTML** template and link CSS and JS
 * Add section dividers for **planets**, **text**, and **buttons**
 * Add **H1** title, **planets containers** & and **ship container** & order them 
-* Assign class or Id to planets and buttons
+* Assign class & Id to planets and buttons
 * Add container that will be displaying the **api** info
 * Add buttons for planets
 * Add buttons for sound and dark mode 
