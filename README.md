@@ -3,48 +3,49 @@
 ![wireframDrawing](css/wireframe.jpg)
 ![Wireframe](css/Wireframe-solarsystem.png)
 
-//StarTrek Project
-// add html for background img (badge)
-// Add HTML for two Buttons (sound and engage)
-// add container element for quotes to be appended into as children
-// add cached element references for container  & buttons 
-// add event listeners on buttons 
-// api call and response in JS to (picard quotes and themesong)
-// make quote stored in variable in event listeners 
-// add a function to handle appended container with quote 
-// Use Bootstrap to stylize page and elements
-//add button to remove quote 
 
-// repeat the same process except for audio file api call
-// or add sound effects 
-// make audio folder with audio sounds
-// create variable to store audio button 
-// create new Audio variable with sound
-// add event listener to variable button to play audio sound 
-// add ability to mute sound if they want 
-// css media for mobile
-// make body flex 
-// test 
+// Solar System Project Unit 1 Code 
+
+// Mobile layout //
+// Add HTML template and link CSS and JS
+// add section dividers for planets, text, and buttons
+// add H1 title, planets containers & and ship container // order them 
+// add container that will be displaying the button api info
+// Add buttons for planets
+// Add buttons for sound and dark mode 
+// Add containers for bottom and top border color
+// add google fonts and bootstrap link 
+
+// CSS design layout and place planets on the page
+// add flex to container divs
+// assign colors, size, fonts, adjust bootstrap 
+// make dark mode button color options / display
+// test layout responsive design 
+// Add in @media to adjust the layout for desktop version 
+// text mobile and desktop versions
+
+// JS add in layout dividers for constants, variables, cached elements, event listeners, and functions 
+// add variable array to store the planets and another variable array to store the ship info 
+// link the elements on HTML to js variables in cached element section 
+// link the buttons, body, and container of information 
+// add click event listeners to sound button, dark mode, and planets
+// fetch api, and make objects that get pushed to array
+// make render function that clears out the data every time you click
+// In render add index to every info data and append it to container with key values selected from API
+// In appending div function, make new div and add in bootstrap blockquote data for a card, append it to container for info, set keys added in
+// add function for dark mode, to change to a dark scheme
+// add constant for dark mode variable object
+// add function fo dark mode to switch between light and dak & set attribute class to body
+// text api call 
+// add in audio function and add click event listener to the audio button 
+// text audio 
+// text dark mode button 
+// test responsive layout and make sure everything functions 
 
 
 
 
-//Solar System Project 
-// set background image to fit the whole screen with found image or css I created myself 
-// add animation of stars if there is time and startrek ship 
-// add buttons to all spots where the planets are html
-// add html button for sound space music spotify 
-// add containers for the data to be placed into it to be appended as child
-// add sound effects when button is click if there is time 
-// add cached elements to connect in js to html buttons 
-// add event listeners to buttons 
-// api call to data & and appened to container on html
-// use blockquote from bootstrap
-// push data about each planet clicked into empty array 
-// render the innerHTml of container for each peice of data
-// stylize page in css 
-// text desktop version
-// make flex box
-// media query for mobile sizing 
+
+
 
 
