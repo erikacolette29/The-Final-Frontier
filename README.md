@@ -7,10 +7,12 @@
 # Solar System Project Unit 1 Code 
 
 ## Mobile layout 
+
+**HTML**
 * Add **HTML** template and link CSS and JS
 * Add section dividers for **planets**, **text**, and **buttons**
 * Add **H1** title, **planets containers** & and **ship container** & order them 
-* Add container that will be displaying the button **api** info
+* Add container that will be displaying the **api** info
 * Add buttons for planets
 * Add buttons for sound and dark mode 
 * Add containers for bottom and top border color
@@ -24,7 +26,8 @@
 * Add in **@media** to adjust the layout for desktop version 
 * Test mobile and desktop versions
 
-// JS add in layout dividers for constants, variables, cached elements, event listeners, and functions 
+**JS**
+add in layout dividers for constants, variables, cached elements, event listeners, and functions 
 // add variable array to store the planets and another variable array to store the ship info 
 // link the elements on HTML to js variables in cached element section 
 // link the buttons, body, and container of information 
