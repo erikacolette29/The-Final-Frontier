@@ -4,25 +4,25 @@
 ![Wireframe](css/Wireframe-solarsystem.png)
 
 
-#Solar System Project Unit 1 Code 
+# Solar System Project Unit 1 Code 
 
-##Mobile layout 
-* Add _HTML_ template and link CSS and JS
-* Add section dividers for *planets*, *text*, and *buttons*
-* Add _H1_ title, _planets containers_ & and _ship container_ & order them 
-* Add container that will be displaying the button _api_ info
+## Mobile layout 
+* Add **HTML** template and link CSS and JS
+* Add section dividers for **planets**, **text**, and **buttons**
+* Add **H1** title, **planets containers** & and **ship container** & order them 
+* Add container that will be displaying the button **api** info
 * Add buttons for planets
 * Add buttons for sound and dark mode 
 * Add containers for bottom and top border color
 * Add google fonts and bootstrap link 
 
-// CSS design layout and place planets on the page
-// add flex to container divs
-// assign colors, size, fonts, adjust bootstrap 
-// make dark mode button color options / display
-// test layout responsive design 
-// Add in @media to adjust the layout for desktop version 
-// text mobile and desktop versions
+**CSS** 
+* Design layout and place planets on the page
+* Add _flex_ to container divs, assign colors, size, fonts, _adjust bootstrap_ 
+* Make **dark mode** button color options / display
+* Test layout responsive design 
+* Add in **@media** to adjust the layout for desktop version 
+* Test mobile and desktop versions
 
 // JS add in layout dividers for constants, variables, cached elements, event listeners, and functions 
 // add variable array to store the planets and another variable array to store the ship info 
