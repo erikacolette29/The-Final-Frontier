@@ -5,6 +5,7 @@
 
 
 # Solar System Project Unit 1 Code 
+This project is making an interactive learning experience about the solar system. Click on a planet and learn some interesting information about it. Click on the Star Trek tng ship and find out some fun facts! 
 
 ## Mobile layout 
 
