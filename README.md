@@ -35,13 +35,18 @@ This project is making an interactive learning experience about the solar system
 * **DOM** link the elements on HTML to js variables in cached element section 
 * DOM link the buttons, body, and container of information 
 * Add **click** event listeners to sound button, dark mode, and planets
-* **Fetch** api, and make _objects_ that get pushed to array
-* Make **render** function that clears out the data every time you click
-* In render add _index_ to all info data and append it to container with key values selected from API
+  
+* Add event listener to planet buttons
+* **Fetch** function to _Get_ api, **.then** function for response & make object to store keys into and push into that object. Call render function
+* **.catch** function to console.log any errors
+
+* Add event listener to light and dark button on click
+* Make a function to select the keys, index, and create div to push info into
+* Append that information to container for each planet and ship
 * In **appending div** function, make new div and add in bootstrap _blockquote_ data for a card, append it to container for info, set keys added in
-* Add function for **dark mode**, to change to a dark scheme
-* Add constant for dark mode variable object
-* Add function fo dark mode to switch between light and dak & set attribute class to body
+* Add function to check for color scheme and change dark mode
+* Add render function, clears out what's inside each container of info, append to div
+  
 * Test api call 
 * Add in **audio** function and add _click_ event listener to the audio button 
 * Test audio 
