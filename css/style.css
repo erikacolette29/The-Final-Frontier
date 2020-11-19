@@ -69,8 +69,6 @@ html {
   
   #containerDiv {
       display: flex;
-     
-    
     width: 100px;
     border: 2px solid black;
     text-align: left;
@@ -200,6 +198,18 @@ html {
     margin-bottom: 20px;
   }
   
+  #borg {
+      height: 40px;
+      width: 40px;
+      background-color: green;
+      background: repeating-linear-gradient(
+  45deg,
+  #01240e,
+  #027733 10px,
+  #029e1c 10px,
+  #125a16 20px
+);
+  }
   
   /* DESTOP ***********************************************/
   @media only screen and (min-width: 768px) {

@@ -17,6 +17,8 @@ function myFunction() {
   
   const container = document.getElementById("containerDiv");
   const body = document.getElementById("body");
+
+  const borg = document.getElementById('borg')
   
   /*----------------------------- Event Listeners -----------------------------*/
   
@@ -32,6 +34,7 @@ function myFunction() {
   
   /*-------------------------------- Functions --------------------------------*/
   
+//   PLANETS INFO //
   function handleClick(click) {
     let planet = click.target.id;
     console.log(planet);
@@ -51,3 +54,16 @@ function myFunction() {
     getPlanets();
   }
   
+//ENTERPRISE //
+
+  ship.addEventListener('click', (e) =>{
+      let audioVar = new Audio(`/sound/enterprise.mp3`)
+      audioVar.play()
+  })
+
+//   BorgShip //
+
+borg.addEventListener('click', (e) =>{
+    let audio = new Audio(`/sound/borg.wav`)
+    audio.play()
+})
