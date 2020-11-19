@@ -52,7 +52,7 @@ This project is making an interactive learning experience about the solar system
 
 
 ## copyright ##
-Star Ship sounds are from celldroid at https://freesound.org/people/celldroid/sounds/134942/
+Ship sounds are from celldroid at https://freesound.org/people/celldroid/sounds/134942/
 
 Borg Sounds are from miked312 at https://freesound.org/people/miked312/sounds/243601/
 (NOTE: Star Trek and all its holdings belong to Paramount/CBS and its affiliates; do not use this recording for commercial purposes!)
