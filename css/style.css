@@ -58,25 +58,27 @@ html {
   }
 
   #containerDiv {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: left;
     font-size: 1.5rem;
     width: 50vw;
-    
   }
+
   #containerDiv2 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: left;
     font-size: 1.5rem;
     width: 50vw;
-    
+   padding: 0 20px;
   }
+
 .big-container {
   display: flex;
   width: 100vw;
   grid-area: main;
   flex-direction: row-reverse;
   align-items: center;
+  margin-bottom: 20px;
 }
   .planets-container {
     display: flex;
@@ -254,12 +256,29 @@ html {
       position: absolute;
       bottom: 0;
       background-color:transparent;
+      border: 2px solid black;
      
   }
   #buttons > button {
   margin: auto;
     
   }
+.big-container {
+  flex-direction: column;
+  width: 50vw;
+}
+  #containerDiv {
+padding: 40px 50px;
+
+  }
+  #containerDiv2 {
+    padding: 40px 50px;
+  }
+
+
+
+
+
       .planet,
       .star {
           position: absolute;

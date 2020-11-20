@@ -26,7 +26,7 @@ function myFunction() {
   document.querySelector(".planets-container").addEventListener("click", handleClick);
 
 
-document.body.addEventListener('click', personClick)
+soundBtn.addEventListener('click', personClick)
 
   
   /*-------------------------------- Functions --------------------------------*/
@@ -41,12 +41,12 @@ document.body.addEventListener('click', personClick)
       const data = await response.json();
       const { englishName, gravity, moons, density, escape } = data;
   
-      document.getElementById("containerDiv").innerText = `
-      Name: ${englishName}, 
-      Gravity: ${gravity}, 
-      Moons: ${moons ? moons.length : 0} , 
-      Density: ${density},
-      Escape: ${escape}`;
+      document.getElementById("containerDiv").innerText = ` Captain's log, Stardate 43125.8.
+       We passed by ${englishName} today, 
+      with gravity strength of ${gravity}.
+     We reported ${moons ? moons.length : 0} moons, and density of ${density}. 
+     Our only route of escape
+     was at a velocity of ${escape}`;
     }
     getPlanets();
   }
@@ -69,16 +69,23 @@ borg.addEventListener('click', (e) =>{
 function personClick(click) {
   let people = click.target.id;
   console.log(people);
-  const peopleUrl = `http://api.open-notify.org/astros.json/${people}`;
+  const peopleUrl = `http://api.open-notify.org/astros.json/`;
   async function peopleSpace() {
     const response = await fetch(peopleUrl);
     const data = await response.json();
-    const {number, craft} = data;
-
+    const {number, people} = data;
+    let craft;
+    people.map((c)=>{
+      console.log(c)
+    craft = c.craft
+    })
     document.getElementById("containerDiv2").innerText = `
-   Number of People in Space: ${number}, 
-    Craft: ${craft}, 
+   People in Space: ${number}, 
+   Spacecraft: ${craft}, 
 
   `}
  peopleSpace();
 }
+
+
+
