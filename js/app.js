@@ -1,8 +1,21 @@
-/*-------------------------------- Constants --------------------------------*/
+/*-------------------------------- Constants 
+--------------------------------*/
+const container = document.getElementById("containerDiv");
+const container2 = document.getElementById("containerDiv2");
+
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
   }
+  
+
+function myRemove() {
+   container.style.display = "none";
+  }
+  function myRemove2() {
+    container2.style.display = "none";
+   }
+  
   
   /*-------------------------------- Variables --------------------------------*/
   
@@ -14,7 +27,7 @@ function myFunction() {
   const soundBtn = document.getElementById("sound-btn");
   const darkBtn = document.getElementById("dark-btn");
   
-  const container = document.getElementById("containerDiv");
+
   const body = document.getElementById("body");
 
   const borg = document.getElementById('borg')
@@ -40,15 +53,21 @@ soundBtn.addEventListener('click', personClick)
       const response = await fetch(planetsUrl);
       const data = await response.json();
       const { englishName, gravity, moons, density, escape } = data;
-  
-      document.getElementById("containerDiv").innerText = ` Captain's log, Stardate 43125.8.
+
+      document.getElementById("containerDiv").innerHTML = ` Captain's log,
        We passed by ${englishName} today, 
       with gravity strength of ${gravity}.
      We reported ${moons ? moons.length : 0} moons, and density of ${density}. 
      Our only route of escape
-     was at a velocity of ${escape}`;
+   was at a velocity of ${escape}
+   <button id='remove' onclick="myRemove()">Remove</button>
+
+   `;
     }
+   
+    container.style.display = "block"
     getPlanets();
+  
   }
   
 //ENTERPRISE //
@@ -79,13 +98,20 @@ function personClick(click) {
       console.log(c)
     craft = c.craft
     })
-    document.getElementById("containerDiv2").innerText = `
-   People in Space: ${number}, 
-   Spacecraft: ${craft}, 
-
-  `}
- peopleSpace();
+    document.getElementById("containerDiv2").innerHTML = ` Captain's Log, supplemental.
+     We were thrown into a wormhole
+      and time traveled back to the year 2020.
+       Commander Data reported that as of this moment,
+        there are only ${number} people in space aboard the ${craft}. 
+        Knowing Earth's history, this is not a time 
+        we wish to stay long in. 
+        
+        <button id='remove' onclick="myRemove2()">Remove</button>
+  `;
 }
 
-
+  container2.style.display = "block"
+ peopleSpace();
+ 
+}
 
