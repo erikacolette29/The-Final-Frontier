@@ -16,10 +16,15 @@ html {
   body {
     margin: 0;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     font-family: "Poiret One", cursive;
     background-color: #fff;
+    grid-template-areas: 
+    'top'
+    'main'
+    'bottom';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
     /* 
     font-family:'Gruppo', cursive;font-family: 'Poiret One', cursive;
     font-family: 'Raleway Dots', cursive; */
@@ -38,25 +43,58 @@ html {
     color: #fff;
     font-size: 5rem;
     padding: 10px;
+    grid-area: top;
   }
-  
+ 
+
   .black-top {
     display: flex;
+    grid-area: top;
     height: 100px;
     width: 100%;
     background-color: black;
     align-self: flex-start;
+    
   }
-  
+
+  #containerDiv {
+    border: 2px solid black;
+    text-align: left;
+    font-size: 1.5rem;
+    width: 50vw;
+    
+  }
+  #containerDiv2 {
+    border: 2px solid black;
+    text-align: left;
+    font-size: 1.5rem;
+    width: 50vw;
+    
+  }
+.big-container {
+  display: flex;
+  width: 100vw;
+  grid-area: main;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+  .planets-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    grid-column: 2/3;
+    align-items: center;
+  }
+
   #buttons {
     display: flex;
+    grid-area: bottom;
     height: 100px;
     width: 100%;
     background-color: black;
     align-self: flex-end;
-   
-    
   }
+  
   #buttons > button {
     height: 50px;
     width: 50px;
@@ -64,25 +102,16 @@ html {
     align-content: space-around;
     align-self: flex-end;
     margin: 30px auto;
-  
+
   }
-  
-  #containerDiv {
-      display: flex;
-    width: 100px;
-    border: 2px solid black;
-    text-align: left;
-    font-size: 1.5rem;
+
+  .black-top, #buttons {
+    grid-column: 1 /3;
   }
-  
+
+ 
   /************* planets *******************************/
-  .planets-container {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+ 
   #sun,
   #mercury,
   #venus,
@@ -211,7 +240,7 @@ html {
 );
   }
   
-  /* DESTOP ***********************************************/
+  /* DESkTOP ***********************************************/
   @media only screen and (min-width: 768px) {
   
   .black-top {
@@ -301,10 +330,14 @@ html {
   #enterprise{
       --size: 40px;
       --push: 420px;
-      animation: neptune 50s infinite linear;
+      animation: enterprise 50s infinite linear;
   }
-  
-  
+  #borg{
+    --size: 40px;
+    --push: 580px;
+    animation: borg 50s infinite linear;
+}
+
   }
   @keyframes mercury {
       from{
@@ -381,6 +414,16 @@ html {
           transform: rotate(360deg)  translateX(420px)
       }
   }
+  @keyframes borg {
+    from{
+        transform: rotate(0) translateX(480px)
+    }
+    to {
+        transform: rotate(360deg) translateX(480px)
+    }
+
+}
+
   @keyframes sun {
       from{
           transform: rotate(0) 

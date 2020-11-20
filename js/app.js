@@ -5,8 +5,7 @@ function myFunction() {
   }
   
   /*-------------------------------- Variables --------------------------------*/
-  const info = [];
-  const shipData = [];
+  
   
   /*------------------------ Cached Element References ------------------------*/
   
@@ -19,18 +18,16 @@ function myFunction() {
   const body = document.getElementById("body");
 
   const borg = document.getElementById('borg')
+
+ 
   
   /*----------------------------- Event Listeners -----------------------------*/
   
-  document
-    .querySelector(".planets-container")
-    .addEventListener("click", handleClick);
-  
-  ship.addEventListener("click", () => {});
-  
-  soundBtn.addEventListener("click", () => {});
-  
-  darkBtn.addEventListener("click", () => {});
+  document.querySelector(".planets-container").addEventListener("click", handleClick);
+
+
+document.body.addEventListener('click', personClick)
+
   
   /*-------------------------------- Functions --------------------------------*/
   
@@ -67,3 +64,21 @@ borg.addEventListener('click', (e) =>{
     let audio = new Audio(`/sound/borg.wav`)
     audio.play()
 })
+
+// Person //
+function personClick(click) {
+  let people = click.target.id;
+  console.log(people);
+  const peopleUrl = `http://api.open-notify.org/astros.json/${people}`;
+  async function peopleSpace() {
+    const response = await fetch(peopleUrl);
+    const data = await response.json();
+    const {number, craft} = data;
+
+    document.getElementById("containerDiv2").innerText = `
+   Number of People in Space: ${number}, 
+    Craft: ${craft}, 
+
+  `}
+ peopleSpace();
+}
