@@ -51,15 +51,21 @@ This project is making an interactive learning experience about the solar system
 * Test responsive layout and make sure everything functions 
 
 
-## copyright ##
-Ship sounds are from celldroid at https://freesound.org/people/celldroid/sounds/134942/
+## Attributions ##
+I would like to make a disclaimer and thank all these resources for making my site possible. These are not my sounds or fonts and no changes were made. 
 
-Borg Sounds are from miked312 at https://freesound.org/people/miked312/sounds/243601/
+Sounds are from [freesound.org](https://freesound.org/)
+Title: "Scotty Star Fleet.mp3"
+Author: celldroid
+Source: [freesound.org](https://freesound.org/people/celldroid/sounds/134942/)
+License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) - Attribution-NonCommercial 3.0 Unported.
+
+Title: "Borg Voices"
+Author: miked312
+Souce: [freesound.org](https://freesound.org/people/miked312/sounds/243601/)
+License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) -Attribution-NonCommercial 3.0 Unported.
+
 (NOTE: Star Trek and all its holdings belong to Paramount/CBS and its affiliates; do not use this recording for commercial purposes!)
 
-
-![postmanpic](images/postman1.png)
-![postmanpic](images/postman2.png)
-
-
-
+Fonts are from [googleFonts](https://fonts.google.com/specimen/Poiret+One?query=poire).
+License: [license](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)

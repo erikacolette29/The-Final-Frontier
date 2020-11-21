@@ -68,7 +68,7 @@ borg.addEventListener("click", (e) => {
   audio.play();
 });
 
-// Person //
+// Person API//
 function personClick(click) {
   let people = click.target.id;
   console.log(people);
