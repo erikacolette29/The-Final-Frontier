@@ -50,7 +50,8 @@ h1 {
   align-self: flex-start;
 }
 
-#containerDiv, #containerDiv2 {
+#containerDiv,
+#containerDiv2 {
   text-align: left;
   font-size: 1.5rem;
   width: 100vw;
@@ -101,9 +102,11 @@ h1 {
   border-radius: 12px;
   border: none;
   background-color: rgb(165, 177, 241);
+  opacity: 0.5;
 }
 #remove:hover {
   background-color: #a49feb;
+  opacity: 1;
 }
 /************* planets *******************************/
 
@@ -120,6 +123,9 @@ h1 {
   margin-bottom: 10px;
 }
 
+.planet:hover {
+  border: 2px solid rgb(27, 162, 216);
+}
 #sun {
   height: 100px;
   width: 100px;
@@ -238,13 +244,10 @@ h1 {
 
 /* DESkTOP ***********************************************/
 @media only screen and (min-width: 768px) {
-
-  .black-top, #buttons{
-    background-color: transparent;
+  .black-top,
+  #buttons {
+    background-color: black;
     border: 2px solid black;
-  }
-  h1 {
-    color: black;
   }
   #buttons {
     position: absolute;
@@ -257,28 +260,26 @@ h1 {
     flex-direction: column;
     width: 50vw;
   }
-  #containerDiv {
-    line-height: 1.8;
-    width: 500px;
-    padding: 30px 100px;
-  }
+
+  #containerDiv,
   #containerDiv2 {
     line-height: 1.8;
     width: 500px;
     padding: 40px 100px;
   }
-.planet-container{
-  height: 0;
-}
- .ship, .borgship {
-  position: absolute;
- }
-  
+
+  .planet-container {
+    height: 0;
+  }
+  .ship,
+  .borgship {
+    position: absolute;
+  }
+
+  /* ANIMATION */
   .planet,
   .star {
     position: absolute;
-    width: var(--size);
-    height: var(--size);
     top: calc(50% - var(--size) / 2);
     left: calc(50% - var(--size) / 2);
     border-radius: 50%;
@@ -340,7 +341,7 @@ h1 {
     --size: 40px;
     animation: borg 50s infinite linear;
   }
-}
+
 @keyframes mercury {
   from {
     transform: rotate(0) translateX(100px);
@@ -432,4 +433,5 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
 }

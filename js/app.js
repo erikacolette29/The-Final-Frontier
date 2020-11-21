@@ -45,7 +45,7 @@ function handleClick(click) {
      We reported ${moons ? moons.length : 0} moons, and density of ${density}. 
      Our only route of escape
    was at a velocity of ${escape}
-   <button id='remove' onclick="myRemove()">Remove</button>
+   <button id='remove' onclick="myRemove()">Close</button>
 
    `;
   }
@@ -92,7 +92,7 @@ function personClick(click) {
         Knowing Earth's history, this is not a time 
         we wish to stay long in. 
         
-        <button id='remove' onclick="myRemove2()">Remove</button>
+        <button id='remove' onclick="myRemove2()">Close</button>
   `;
   }
 
