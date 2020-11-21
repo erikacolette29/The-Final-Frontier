@@ -238,7 +238,8 @@ h1 {
 
 /* DESkTOP ***********************************************/
 @media only screen and (min-width: 768px) {
-  .black-top {
+
+  .black-top, #buttons{
     background-color: transparent;
     border: 2px solid black;
   }
@@ -248,8 +249,6 @@ h1 {
   #buttons {
     position: absolute;
     bottom: 0;
-    background-color: transparent;
-    border: 2px solid black;
   }
   #buttons > button {
     margin: auto;
@@ -268,7 +267,13 @@ h1 {
     width: 500px;
     padding: 40px 100px;
   }
-
+.planet-container{
+  height: 0;
+}
+ .ship, .borgship {
+  position: absolute;
+ }
+  
   .planet,
   .star {
     position: absolute;
