@@ -52,7 +52,7 @@ This project is making an interactive learning experience about the solar system
 
 
 ## Attributions ##
-I would like to make a disclaimer and thank all these resources for making my site possible. These are not my sounds, images, or fonts and no changes were made. 
+I would like to make a disclaimer and thank all these resources for making my site possible. These are not my sounds, icons, or fonts and no changes were made. 
 
 Sounds are from [freesound.org](https://freesound.org/)
 Title: "Scotty Star Fleet.mp3"
@@ -69,3 +69,12 @@ License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) -Attribution
 
 Fonts are from [googleFonts](https://fonts.google.com/specimen/Poiret+One?query=poire).
 License: [license](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+
+Icons:
+Title: Moon
+Source: [fontawesome.com](https://fontawesome.com/icons/moon?style=solid)
+License: [License] (https://fontawesome.com/license#what-the-customer-may-do)
+
+Title: user-astronaut 
+Source: [fontawesome.com](https://fontawesome.com/icons/user-astronaut?style=solid)
+License: [License] (https://fontawesome.com/license#what-the-customer-may-do)
