@@ -115,8 +115,8 @@ html {
 #remove {
   margin-top: 10px;
   border-radius: 12px;
-  border: 1px solid;
-   background-color: white;
+  border: none;
+  background-color: rgb(165, 177, 241);
  }
  #remove:hover {
    background-color: #a49feb;
@@ -307,33 +307,33 @@ padding: 30px 100px;
       animation: orbit 2s infinite linear;
   }
   #mercury{
-      --size: 20px;
-      --push: 80px;
+      --size: 10px;
+     
       animation: mercury 5s infinite linear;
   }
   #venus{
       --size: 24px;
-      --push: 120px;
+      
       animation: venus 15s infinite linear;
   }
   #earth{
       --size: 40px;
-      --push: 160px;
+      
       animation: earth 20s infinite linear;
   }
   #mars{
       --size: 30px;
-      --push: 200px;
+      
       animation: mars 25s infinite linear;
   }
   #jupiter{
       --size: 70px;
-      --push: 260px;
+     
       animation: jupiter 30s infinite linear;
   }
   #saturn{
       --size: 40px;
-      --push: 320px;
+     
       animation: saturn 35s infinite linear;
   }
   #saturn::after {
@@ -350,22 +350,22 @@ padding: 30px 100px;
     }
   #uranus{
       --size: 50px;
-      --push: 360px;
+      
       animation: uranus 40s infinite linear;
   }
   #neptune{
       --size: 30px;
-      --push: 400px;
+    
       animation: neptune 45s infinite linear;
   }
   #enterprise{
       --size: 40px;
-      --push: 420px;
+      
       animation: enterprise 50s infinite linear;
   }
   #borg{
     --size: 40px;
-    --push: 580px;
+    
     animation: borg 50s infinite linear;
 }
 
