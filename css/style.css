@@ -101,11 +101,11 @@ h1 {
   margin-top: 10px;
   border-radius: 12px;
   border: none;
-  background-color: rgb(165, 177, 241);
+  background-color: rgb(220, 224, 248);
   opacity: 0.5;
 }
 #remove:hover {
-  background-color: #a49feb;
+  background-color: #c2bef3;
   opacity: 1;
 }
 /************* planets *******************************/
@@ -265,7 +265,7 @@ h1 {
   #containerDiv2 {
     line-height: 1.8;
     width: 500px;
-    padding: 40px 100px;
+    padding: 50px 100px;
   }
 
   .planet-container {
