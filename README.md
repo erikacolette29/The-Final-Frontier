@@ -56,7 +56,7 @@ I would like to make a disclaimer and thank all these resources for making my si
 
 Sounds are from [freesound.org](https://freesound.org/)
 Title: "Scotty Star Fleet.mp3"
-Author: celldroid
+Author: celldroid.
 Source: [freesound.org](https://freesound.org/people/celldroid/sounds/134942/)
 License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) - Attribution-NonCommercial 3.0 Unported.
 
