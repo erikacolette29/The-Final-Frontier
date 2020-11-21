@@ -69,8 +69,3 @@ License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) -Attribution
 
 Fonts are from [googleFonts](https://fonts.google.com/specimen/Poiret+One?query=poire).
 License: [license](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
-
-Title: space
-Author: Kai Pilger
-Source: [space picture](https://unsplash.com/s/photos/space)
-License: [License](https://kaipilger.myportfolio.com/legal-disclosure) [unsplash.com](https://unsplash.com/developers)
