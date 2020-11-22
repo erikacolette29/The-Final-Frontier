@@ -1,7 +1,6 @@
 const container = document.getElementById("containerDiv");
 const container2 = document.getElementById("containerDiv2");
 
-const planets = document.querySelectorAll(".planets");
 const ship = document.getElementById("enterprise");
 const borg = document.getElementById("borg");
 
@@ -15,12 +14,13 @@ const body = document.getElementById("body");
 document.querySelector(".planets-container").addEventListener("click", handleClick);
 
 soundBtn.addEventListener("click", personClick);
-
+/*-------------------------------- Functions --------------------------------*/
+//DARK Mode//
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
-/*-------------------------------- Functions --------------------------------*/
+
 // Remove Button //
 function myRemove() {
   container.style.display = "none";
@@ -68,7 +68,7 @@ borg.addEventListener("click", (e) => {
   audio.play();
 });
 
-// Person API//
+// ISS API//
 function personClick(click) {
   let people = click.target.id;
   console.log(people);
@@ -82,9 +82,7 @@ function personClick(click) {
       console.log(c);
       craft = c.craft;
     });
-    document.getElementById(
-      "containerDiv2"
-    ).innerHTML = ` Captain's Log, supplemental.
+    document.getElementById("containerDiv2").innerHTML = ` Captain's Log, supplemental.
      We were thrown into a wormhole
       and time traveled back to the year 2020.
        Commander Data reported that as of this moment,
