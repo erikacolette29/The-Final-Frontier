@@ -10,42 +10,38 @@ This project is making an interactive learning experience about the solar system
 ## Mobile layout 
 
 **HTML**
-* Add **HTML** template and link CSS and JS
-* Add section dividers for **planets**, **text**, and **buttons**
-* Add **H1** title, **planets containers** & and **ship container** & order them 
+* Add **HTML** template and link CSS, JS, fonts, & icons.
+* Add section dividers for **planets** and **buttons**
+* Add **H1** title, **planets container**, & **button container**.
 * Assign class & Id to planets and buttons
-* Add container that will be displaying the **api** info
-* Add buttons for planets
+* Add two containers that will be displaying the **api** info
 * Add buttons for sound and dark mode 
 * Add containers for bottom and top border color
 * Add google fonts and bootstrap link 
 
 **CSS** 
 * Design layout and place planets on the page
-* Add _flex_ to container divs, assign colors, size, fonts, _adjust bootstrap_ 
+* Add grid to body, _flex_ to container divs, assign colors, size, fonts, _adjust bootstrap_ 
 * Make **dark mode** button color options / display
 * Test layout responsive design 
 * Add in **@media** to adjust the layout for desktop version 
+* Add animation to planets and starship/borg ship
 * Test mobile and desktop versions
 * Set width, hight, and colors, to api container div
 
 **JS**
 * Add in layout dividers for **constants, variables, cached elements, event listeners, and functions** 
-* Add variable _array_ to store the planets and another variable _array_ to store the ship  info 
 * **DOM** link the elements on HTML to js variables in cached element section 
 * DOM link the buttons, body, and container of information 
 * Add **click** event listeners to sound button, dark mode, and planets
-* Add event listener to planet buttons
-* **Fetch** function to _Get_ api, **.then** function for response & make object to store keys into and push into that object. Call render function
-* **.catch** function to console.log any errors
-* Add event listener to light and dark button on click
-* Make a function to select the keys, index, and create div to push info into
-* Append that information to container for each planet and ship
-* In **appending div** function, make new div and add in bootstrap _blockquote_ data for a card, append it to container for info, set keys added in
+* Make function to remove container boxes on click button.
+* Make a handleClick function to target the planets on the page. Set the API url to a variable. Use the **async** function to set the response to a variable. Set the json response to a variable data. Use ternary operators to pick out the information wanted from the api and let it equal to the data. 
+* In the handleClick function select the first container innerHTML to text with ternary keys inside the sentence. 
+* Add in remove button in innerHTML, add the display block to end of function. Then call the getPlanets function. 
+* Repeat same process for the second API. 
 * Add function to check for color scheme and change dark mode
-* Add render function, clears out what's inside each container of info, append to div
+* Add sound buttons to a click event listener for the borg and starship. Make new audio sound to elements. 
 * Test api call 
-* Add in **audio** function and add _click_ event listener to the audio button 
 * Test audio 
 * Test dark mode button 
 * Test responsive layout and make sure everything functions 

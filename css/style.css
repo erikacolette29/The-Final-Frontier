@@ -136,7 +136,6 @@ h1 {
     rgba(255, 188, 0, 1) 100%,
     rgba(255, 244, 0, 0.5606617647058824) 100%
   );
- 
 }
 
 #mercury {
@@ -338,14 +337,12 @@ h1 {
   }
   #enterprise {
     --size: px;
-    animation: enterprise 40s infinite ;
+    animation: enterprise 40s infinite;
   }
   #borg {
     --size: 5px;
     animation: borg 50s infinite linear;
-  }  
-
-
+  }
 
   @keyframes sun {
     from {
@@ -354,91 +351,88 @@ h1 {
     to {
       transform: rotate(360deg);
     }
-  } 
- @keyframes mercury {
-  from {
-    transform: rotate(0) translateX(80px);
   }
-  to {
-    transform: rotate(360deg) translateX(80px);
+  @keyframes mercury {
+    from {
+      transform: rotate(0) translateX(80px);
+    }
+    to {
+      transform: rotate(360deg) translateX(80px);
+    }
   }
-} 
 
-@keyframes venus {
-  from {
-    transform: rotate(0) translateX(120px);
+  @keyframes venus {
+    from {
+      transform: rotate(0) translateX(120px);
+    }
+    to {
+      transform: rotate(360deg) translateX(120px);
+    }
   }
-  to {
-    transform: rotate(360deg) translateX(120px);
-  }
-}
 
-@keyframes earth {
-  from {
-    transform: rotate(0) translateX(160px);
+  @keyframes earth {
+    from {
+      transform: rotate(0) translateX(160px);
+    }
+    to {
+      transform: rotate(360deg) translateX(160px);
+    }
   }
-  to {
-    transform: rotate(360deg) translateX(160px);
+  @keyframes mars {
+    from {
+      transform: rotate(0) translateX(200px);
+    }
+    to {
+      transform: rotate(360deg) translateX(200px);
+    }
   }
-}
-@keyframes mars {
-  from {
-    transform: rotate(0) translateX(200px);
+  @keyframes jupiter {
+    from {
+      transform: rotate(0) translateX(260px);
+    }
+    to {
+      transform: rotate(360deg) translateX(260px);
+    }
   }
-  to {
-    transform: rotate(360deg) translateX(200px);
+  @keyframes saturn {
+    from {
+      transform: rotate(0) translateX(320px);
+    }
+    to {
+      transform: rotate(360deg) translateX(320px);
+    }
   }
-}
-@keyframes jupiter {
-  from {
-    transform: rotate(0) translateX(260px);
+  @keyframes uranus {
+    from {
+      transform: rotate(0) translateX(375px);
+    }
+    to {
+      transform: rotate(360deg) translateX(375px);
+    }
   }
-  to {
-    transform: rotate(360deg) translateX(260px);
+  @keyframes neptune {
+    from {
+      transform: rotate(0) translateX(420px);
+    }
+    to {
+      transform: rotate(360deg) translateX(420px);
+    }
   }
-}
-@keyframes saturn {
-  from {
-    transform: rotate(0) translateX(320px);
-  }
-  to {
-    transform: rotate(360deg) translateX(320px);
-  }
-}
-@keyframes uranus {
-  from {
-    transform: rotate(0) translateX(375px);
-  }
-  to {
-    transform: rotate(360deg) translateX(375px);
-  }
-}
-@keyframes neptune {
-  from {
-    transform: rotate(0) translateX(420px);
-  }
-  to {
-    transform: rotate(360deg) translateX(420px);
-  }
-}
 
-@keyframes enterprise {
-  from {
-    transform: rotate(0) translateX(700px);
+  @keyframes enterprise {
+    from {
+      transform: rotate(0) translateX(700px);
+    }
+    to {
+      transform: rotate(360deg) translateX(700px);
+    }
   }
-  to {
-    transform: rotate(360deg) translateX(700px);
+  @keyframes borg {
+    from {
+      transform: rotate(0) translateX(1000px);
+    }
+    to {
+      transform: rotate(360deg) translateX(1000px);
+    }
   }
 }
-@keyframes borg {
-  from {
-    transform: rotate(0) translateX(1000px)
-  }
-  to {
-    transform: rotate(360deg) translateX(1000px)
-  }
-} 
-
-
-
-}  
