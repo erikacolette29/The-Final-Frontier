@@ -12,13 +12,13 @@ This project is making an interactive learning experience about the solar system
 ## Mobile layout 
 
 **HTML**
-* Add **HTML** template and link CSS, JS, fonts, & icons.
+* Make the **HTML** template and link CSS, JS, fonts, & icons.
 * Add section dividers for **planets** and **buttons**
 * Add **H1** title, **planets container**, & **button container**.
-* Assign class & Id to planets and buttons
+* Assign classes & Ids to planets and buttons.
 * Add two containers that will be displaying the **api** info
 * Add buttons for sound and dark mode 
-* Add containers for bottom and top border color
+* Add containers for bottom and top border colors
 * Add google fonts and bootstrap link 
 
 **CSS** 
