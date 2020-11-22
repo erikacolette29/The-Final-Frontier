@@ -9,7 +9,7 @@ This project is an interactive learning experience about the solar system. Click
 
 [The Final Frontier](http://space-nerdy.surge.sh/)
 
-## Mobile layout 
+## Mobile / Desktop Design Layout 
 
 **HTML**
 * Make the **HTML** template and link CSS, JS, fonts, & icons.
