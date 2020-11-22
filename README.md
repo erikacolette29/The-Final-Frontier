@@ -55,12 +55,12 @@ Sounds are from [freesound.org](https://freesound.org/)
 Title: "Scotty Star Fleet.mp3"
 Author: celldroid.
 Source: [freesound.org](https://freesound.org/people/celldroid/sounds/134942/)
-License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) - Attribution-NonCommercial 3.0 Unported.
+License: [license](https://creativecommons.org/licenses/by-nc/3.0/legalcode) - Attribution-NonCommercial 3.0 Unported.
 
 Title: "Borg Voices"
 Author: miked312
 Souce: [freesound.org](https://freesound.org/people/miked312/sounds/243601/)
-License: (https://creativecommons.org/licenses/by-nc/3.0/legalcode) -Attribution-NonCommercial 3.0 Unported.
+License: [license](https://creativecommons.org/licenses/by-nc/3.0/legalcode) -Attribution-NonCommercial 3.0 Unported.
 
 (NOTE: Star Trek and all its holdings belong to Paramount/CBS and its affiliates; do not use this recording for commercial purposes!)
 
