@@ -7,8 +7,6 @@ const borg = document.getElementById("borg");
 const soundBtn = document.getElementById("sound-btn");
 const darkBtn = document.getElementById("dark-btn");
 
-const body = document.getElementById("body");
-
 /*----------------------------- Event Listeners -----------------------------*/
 
 document.querySelector(".planets-container").addEventListener("click", handleClick);
@@ -41,8 +39,8 @@ function handleClick(click) {
 
     document.getElementById("containerDiv").innerHTML = ` Captain's log,
        We passed by ${englishName} today, 
-      with gravity strength of ${gravity}.
-     We reported ${moons ? moons.length : 0} moons, and density of ${density}. 
+      with a gravity strength of ${gravity}.
+     We reported ${moons ? moons.length : 0} moons, and a density of ${density}. 
      Our only route of escape
    was at a velocity of ${escape}
    <button id='remove' onclick="myRemove()">Close</button>
