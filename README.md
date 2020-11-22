@@ -23,11 +23,12 @@ This project is making an interactive learning experience about the solar system
 
 **CSS** 
 * Design layout and place planets on the page
-* Add grid to body, _flex_ to container divs, assign colors, size, fonts, _adjust bootstrap_ 
-* Make **dark mode** button color options / display
+* Add grid to body, _flex_ to container divs, assign colors, size, fonts, _adjust bootstrap_.
+* Make **dark mode** button color options / display.
 * Test layout responsive design 
-* Add in **@media** to adjust the layout for desktop version 
+* Add in **@media** to adjust the layout for desktop version.
 * Add animation to planets and starship/borg ship
+* Set keyframe animation to planets and ships
 * Test mobile and desktop versions
 * Set width, hight, and colors, to api container div
 
