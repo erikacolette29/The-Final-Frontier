@@ -71,8 +71,8 @@ License: [license](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=
 Icons:
 Title: Moon
 Source: [fontawesome.com](https://fontawesome.com/icons/moon?style=solid)
-License: [License] (https://fontawesome.com/license#what-the-customer-may-do)
+License: [License](https://fontawesome.com/license#what-the-customer-may-do)
 
 Title: user-astronaut 
 Source: [fontawesome.com](https://fontawesome.com/icons/user-astronaut?style=solid)
-License: [License] (https://fontawesome.com/license#what-the-customer-may-do)
+License: [License](https://fontawesome.com/license#what-the-customer-may-do)
