@@ -37,10 +37,10 @@ This project is making an interactive learning experience about the solar system
 * Make function to remove container boxes on click button.
 * Make a handleClick function to target the planets on the page. Set the API url to a variable. Use the **async** function to set the response to a variable. Set the json response to a variable data. Use ternary operators to pick out the information wanted from the api and let it equal to the data. 
 * In the handleClick function select the first container innerHTML to text with ternary keys inside the sentence. 
-* Add in remove button in innerHTML, add the display block to end of function. Then call the getPlanets function. 
+* Add in remove button in innerHTML, add the display block to end of the function. Then call the getPlanets function. 
 * Repeat same process for the second API. 
 * Add function to check for color scheme and change dark mode
-* Add sound buttons to a click event listener for the borg and starship. Make new audio sound to elements. 
+* Add sound buttons to a click event listener for the borg and starship. Make new audio sound for elements. 
 * Test api call 
 * Test audio 
 * Test dark mode button 
