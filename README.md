@@ -36,8 +36,8 @@ This project is making an interactive learning experience about the solar system
 * **DOM** link the elements on HTML to js variables in cached element section 
 * DOM link the buttons, body, and container of information 
 * Add **click** event listeners to sound button, dark mode, and planets
-* Make function to remove container boxes on click button.
-* Make a handleClick function to target the planets on the page. Set the API url to a variable. Use the **async** function to set the response to a variable. Set the json response to a variable data. Use ternary operators to pick out the information wanted from the api and let it equal to the data. 
+* Make function to **remove** container boxes on click button.
+* Make a handleClick function to target the planets on the page. Set the **API** url to a variable. Use the **async** function to set the response to a variable. Set the json response to a variable data. Use ternary operators to pick out the information wanted from the api and let it equal to the data. 
 * In the handleClick function select the first container innerHTML to text with ternary keys inside the sentence. 
 * Add in remove button in innerHTML, add the display block to end of the function. Then call the getPlanets function. 
 * Repeat same process for the second API. 
