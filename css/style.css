@@ -136,12 +136,12 @@ h1 {
     rgba(255, 188, 0, 1) 100%,
     rgba(255, 244, 0, 0.5606617647058824) 100%
   );
-  margin-top: 20px;
+ 
 }
 
 #mercury {
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   background: linear-gradient(
     151deg,
     rgba(240, 240, 240, 1) 0%,
@@ -151,8 +151,8 @@ h1 {
 }
 
 #venus {
-  height: 44px;
-  width: 44px;
+  height: 30px;
+  width: 30px;
   background: linear-gradient(
     151deg,
     rgba(250, 246, 238, 1) 0%,
@@ -162,8 +162,8 @@ h1 {
 }
 
 #earth {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   background: linear-gradient(
     151deg,
     rgba(11, 249, 255, 1) 0%,
@@ -172,8 +172,8 @@ h1 {
   );
 }
 #mars {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   background: linear-gradient(
     151deg,
     rgba(238, 168, 155, 1) 0%,
@@ -182,8 +182,8 @@ h1 {
   );
 }
 #jupiter {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   background: linear-gradient(
     151deg,
     rgba(238, 195, 155, 1) 0%,
@@ -192,8 +192,8 @@ h1 {
   );
 }
 #saturn {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   background: linear-gradient(
     151deg,
     rgba(245, 197, 34, 1) 0%,
@@ -202,8 +202,8 @@ h1 {
   );
 }
 #uranus {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   background: linear-gradient(
     151deg,
     rgba(34, 180, 245, 1) 0%,
@@ -212,8 +212,8 @@ h1 {
   );
 }
 #neptune {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background: linear-gradient(
     151deg,
     rgba(5, 159, 228, 1) 0%,
@@ -281,6 +281,8 @@ h1 {
   .planet,
   .star {
     position: absolute;
+    width: var(--size);
+    height: var(--size);
     top: calc(50% - var(--size) / 2);
     left: calc(50% - var(--size) / 2);
     border-radius: 50%;
@@ -288,31 +290,31 @@ h1 {
 
   #sun {
     --size: 100px;
-    animation: orbit 2s infinite linear;
+    animation: sun 5s infinite linear;
   }
   #mercury {
-    --size: 10px;
-    animation: mercury 5s infinite linear;
+    --size: 30px;
+    animation: mercury 10s infinite linear;
   }
   #venus {
-    --size: 24px;
-    animation: venus 15s infinite linear;
+    --size: 40px;
+    animation: venus 12s infinite linear;
   }
   #earth {
-    --size: 40px;
-    animation: earth 20s infinite linear;
+    --size: 30px;
+    animation: earth 14s infinite linear;
   }
   #mars {
-    --size: 30px;
-    animation: mars 25s infinite linear;
+    --size: 10px;
+    animation: mars 16s infinite linear;
   }
   #jupiter {
-    --size: 70px;
-    animation: jupiter 30s infinite linear;
+    --size: 20px;
+    animation: jupiter 18s infinite linear;
   }
   #saturn {
-    --size: 40px;
-    animation: saturn 35s infinite linear;
+    --size: -20px;
+    animation: saturn 20s infinite linear;
   }
   #saturn::after {
     content: "";
@@ -327,32 +329,51 @@ h1 {
     transform: translate(-50%, -50%) rotate(30deg);
   }
   #uranus {
-    --size: 50px;
-    animation: uranus 40s infinite linear;
+    --size: -2px;
+    animation: uranus 22s infinite linear;
   }
   #neptune {
-    --size: 30px;
-    animation: neptune 45s infinite linear;
+    --size: -25px;
+    animation: neptune 24s infinite linear;
   }
   #enterprise {
-    --size: 40px;
-    animation: enterprise 50s infinite linear;
+    --size: px;
+    animation: enterprise 40s infinite ;
   }
   #borg {
-    --size: 40px;
+    --size: 5px;
     animation: borg 50s infinite linear;
-  }
+  }  
 
-@keyframes mercury {
+
+
+  @keyframes sun {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+ @keyframes mercury {
   from {
-    transform: rotate(0) translateX(100px);
+    transform: rotate(0) translateX(80px);
   }
   to {
-    transform: rotate(360deg) translateX(100px);
+    transform: rotate(360deg) translateX(80px);
+  }
+} 
+
+@keyframes venus {
+  from {
+    transform: rotate(0) translateX(120px);
+  }
+  to {
+    transform: rotate(360deg) translateX(120px);
   }
 }
 
-@keyframes venus {
+@keyframes earth {
   from {
     transform: rotate(0) translateX(160px);
   }
@@ -360,24 +381,31 @@ h1 {
     transform: rotate(360deg) translateX(160px);
   }
 }
-
-@keyframes earth {
-  from {
-    transform: rotate(0) translateX(220px);
-  }
-  to {
-    transform: rotate(360deg) translateX(220px);
-  }
-}
 @keyframes mars {
   from {
-    transform: rotate(0) translateX(285px);
+    transform: rotate(0) translateX(200px);
   }
   to {
-    transform: rotate(360deg) translateX(285px);
+    transform: rotate(360deg) translateX(200px);
   }
 }
 @keyframes jupiter {
+  from {
+    transform: rotate(0) translateX(260px);
+  }
+  to {
+    transform: rotate(360deg) translateX(260px);
+  }
+}
+@keyframes saturn {
+  from {
+    transform: rotate(0) translateX(320px);
+  }
+  to {
+    transform: rotate(360deg) translateX(320px);
+  }
+}
+@keyframes uranus {
   from {
     transform: rotate(0) translateX(375px);
   }
@@ -385,54 +413,32 @@ h1 {
     transform: rotate(360deg) translateX(375px);
   }
 }
-@keyframes saturn {
-  from {
-    transform: rotate(0) translateX(465px);
-  }
-  to {
-    transform: rotate(360deg) translateX(465px);
-  }
-}
-@keyframes uranus {
-  from {
-    transform: rotate(0) translateX(540px);
-  }
-  to {
-    transform: rotate(360deg) translateX(540px);
-  }
-}
 @keyframes neptune {
   from {
-    transform: rotate(0) translateX(620px);
+    transform: rotate(0) translateX(420px);
   }
   to {
-    transform: rotate(360deg) translateX(620px);
+    transform: rotate(360deg) translateX(420px);
   }
 }
 
 @keyframes enterprise {
   from {
-    transform: rotate(0) translateX(500px);
+    transform: rotate(0) translateX(700px);
   }
   to {
-    transform: rotate(360deg) translateX(500px);
+    transform: rotate(360deg) translateX(700px);
   }
 }
 @keyframes borg {
   from {
-    transform: rotate(0) translateX(800px);
+    transform: rotate(0) translateX(1000px)
   }
   to {
-    transform: rotate(360deg) translateX(800px);
+    transform: rotate(360deg) translateX(1000px)
   }
-}
+} 
 
-@keyframes sun {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-}
+
+
+}  
