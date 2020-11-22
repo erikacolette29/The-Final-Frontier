@@ -86,7 +86,7 @@ function personClick(click) {
        Commander Data reported that as of this moment,
         there are only ${number} people in space aboard the ${craft}. 
         Knowing Earth's history, this is not a time 
-        we wish to stay long in. 
+        we wish to stay in long. 
         
         <button id='remove' onclick="myRemove2()">Close</button>
   `;
