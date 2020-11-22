@@ -15,7 +15,7 @@ document.querySelector(".planets-container").addEventListener("click", handleCli
 
 soundBtn.addEventListener("click", personClick);
 /*-------------------------------- Functions --------------------------------*/
-//DARK Mode//
+//Dark Mode//
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
