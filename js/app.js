@@ -75,7 +75,6 @@ function personClick(click) {
     const { number, people } = data;
     let craft;
     people.map((c) => {
-      console.log(c);
       craft = c.craft;
     });
     document.getElementById("containerDiv2").innerHTML = ` Captain's Log, supplemental.
