@@ -51,6 +51,14 @@ This project is an interactive learning experience about the solar system. Click
 * Test api call, audio, dark mode button 
 * Test responsive layout and make sure everything functions.
 
+## Future Enhancements
+* Add music
+* Make animation into a perfect circle 
+
+## Technology Used 
+* HTML
+* CSS 
+* JAVASCRIPT
 
 ## Attributions ##
 I would like to make a disclaimer and thank all these resources for making my site possible. These are not my sounds, icons, or fonts and no changes were made. 

@@ -9,7 +9,9 @@ const darkBtn = document.getElementById("dark-btn");
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-document.querySelector(".planets-container").addEventListener("click", handleClick);
+document
+  .querySelector(".planets-container")
+  .addEventListener("click", handleClick);
 
 soundBtn.addEventListener("click", personClick);
 /*-------------------------------- Functions --------------------------------*/
@@ -39,7 +41,9 @@ function handleClick(click) {
     document.getElementById("containerDiv").innerHTML = ` Captain's log,
        We passed by ${englishName} today, 
       with a gravity strength of ${gravity}.
-     We reported ${moons ? moons.length : 0} moons, and a density of ${density}. 
+     We reported ${
+       moons ? moons.length : 0
+     } moons, and a density of ${density}. 
      Our only route of escape
    was at a velocity of ${escape}
    <button id='remove' onclick="myRemove()">Close</button>
@@ -77,7 +81,9 @@ function personClick(click) {
     people.map((c) => {
       craft = c.craft;
     });
-    document.getElementById("containerDiv2").innerHTML = ` Captain's Log, supplemental.
+    document.getElementById(
+      "containerDiv2"
+    ).innerHTML = ` Captain's Log, supplemental.
      We were thrown into a wormhole
       and time traveled back to the year 2020.
        Commander Data reported that as of this moment,
