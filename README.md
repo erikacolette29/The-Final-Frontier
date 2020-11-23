@@ -53,7 +53,7 @@ This project is an interactive learning experience about the solar system. Click
 
 ## Future Enhancements
 * Add music
-* Make animation into a perfect circle 
+* Make planet animation into a perfect circle 
 
 ## Technology Used 
 * HTML
