@@ -30,7 +30,6 @@ function myRemove2() {
 //   PLANETS API//
 function handleClick(click) {
   let planet = click.target.id;
-  console.log(planet);
   const planetsUrl = `https://api.le-systeme-solaire.net/rest/bodies/${planet}`;
   async function getPlanets() {
     const response = await fetch(planetsUrl);
@@ -69,7 +68,6 @@ borg.addEventListener("click", (e) => {
 // ISS API//
 function personClick(click) {
   let people = click.target.id;
-  console.log(people);
   const peopleUrl = `http://api.open-notify.org/astros.json/`;
   async function peopleSpace() {
     const response = await fetch(peopleUrl);
