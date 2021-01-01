@@ -1,4 +1,12 @@
 
+
+# The Final Frontier 
+This project is an interactive learning experience about the solar system. Click on a planet and learn some interesting information about it. Watch as the borg ship chases the Star Trek TNG ship around the solar system. Click on them and hear what they have to say! 
+
+[The Final Frontier](http://space-nerdy.surge.sh/)
+
+
+
 ![Wireframe](css/Wireframe-solarsystem.png)
 ![wireframDrawing](css/wireframe.jpg)
 ![desktopmain](images/mainscreen.png)
@@ -6,12 +14,6 @@
 ![mobilewhite](images/mobiledark.png)
 
 
-
-
-# The Final Frontier 
-This project is an interactive learning experience about the solar system. Click on a planet and learn some interesting information about it. Watch as the borg ship chases the Star Trek TNG ship around the solar system. Click on them and hear what they have to say! 
-
-[The Final Frontier](http://space-nerdy.surge.sh/)
 
 ## Mobile / Desktop Design Layout 
 
